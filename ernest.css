@@ -20,7 +20,7 @@ body {
 /* .list-wrapper{
     margin-top: 60px
 } */
-a{
+.list li a{
     color:#bec7cd;
     text-decoration:none
 }
@@ -33,16 +33,4 @@ a{
     color:#bec7cd;
     font-size:20px;
     padding-top: 10px
-}
-.list2{
-    margin-top: -150px;
-    margin-left: 200px
-}
-.list3{
-    margin-top: -157px;
-    margin-left: 450px
-}
-.list4{
-    margin-top: -152px;
-    margin-left: 700px
 }

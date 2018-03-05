@@ -1,6 +1,7 @@
 body{
     margin: 0;
     width:100%;
+    font-family: 'Roboto Slab', serif;
 }
 .back-im{
     width: 96%;
@@ -25,7 +26,6 @@ body{
     width: 180px
 }
 .text h1{
-    font-family: roboto;
     font-size: 40px;
     line-height: 50px;
     color: #fff;
@@ -178,8 +178,75 @@ body{
     display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
+.mess{
+    position: fixed;
+    z-index: 200;
+    top: 510px;
+    left: 90%;
+}
+.mess img{
+    width: 45px
+}
+.content{
+    margin-top: 640px;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-bottom: 160px;
+    background-color:#fff
+}
+.text-card{
+    padding: 30px
+}
+.content p{
+   font-Style:normal;
+   font-Weight:150;
+   font-Size:16px;
+   Line-Height:26px
 
+}
+.one {
+    margin-top: 30px
+}
+.testimonial{
+    padding: 80px;
+    background-color: #e0e0e0;
+
+}
+.big{
+    float: left;
+    font-size: 128px;
+    color: burlywood
+}
+.testimonial h1{
+    font-size: 46px;
+    line-height: 60px;
+    padding: 40px
+}
+.pic img {
+    margin-top: 220px;
+    margin-left: 90%
+}
+.pic p{
+    margin-left: 70%
+}
+.blue{
+    background-color: rgb(26, 20, 61);
+    padding-top: 40px;
+    padding-bottom: 80px;
+    z-index: 89;
+}
+.blue h3{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px
+}
+.blue input{
+    width: 80%;
+    height:70px;
+    border:0;
+    border-radius: 6px;
+    padding-left: 30px
+}
 @media only screen and (max-width: 767px){
     .back-im{
         width: 100%;
@@ -208,7 +275,15 @@ body{
     .text h1{
         top:200px;
         left:3%;
-        font-size: 30px;
+        font-size: 20px;
         line-height: 40px;
+    }
+    .mess{
+        position: absolute;
+        top: 510px;
+        left: 90%;
+    }
+    .mess img{
+        width: 45px
     }
 }
