@@ -4,11 +4,12 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 .back-im{
-    width: 96%;
-    height: 650px;
+    width: 98%;
+    height: 690px;
     overflow: hidden;
     position: fixed;
-    margin: 2%
+    margin: 2%;
+    margin-left: 0px
 }
 .back-im img{
     margin-top: -100px;
@@ -80,7 +81,8 @@ body{
     color:rgb(114, 111, 111);
     font-size: 15px;
     top: 30px;
-    width: 132px;
+    width: 160px;
+    padding: 10px;
     background-color: #fff;
     border-radius:5px;
     z-index: 1;
@@ -91,7 +93,6 @@ body{
  .dropdown-content2 a {
     color: black;
     padding: 12px 16px;
-    margin-left: 20px;
     text-decoration: none;
     display: block;
 }
@@ -107,7 +108,8 @@ body{
     top: 30px;
     color:rgb(114, 111, 111);
     font-size: 15px;
-    width: 132px;
+    width: 160px;
+    padding: 10px;
     background-color: #fff;
     border-radius:5px;
     z-index: 1;
@@ -117,7 +119,6 @@ body{
  .dropdown-content3 a {
     color: black;
     padding: 12px 16px;
-    margin-left: 20px;
     text-decoration: none;
     display: block;
 }
@@ -128,7 +129,7 @@ body{
 }
 .menu-btn{
     position: absolute;
-    background-color:  #c5c1c1;
+    background-color: #dad3d3;
     border: 1px solid #fff;
     border-radius:5px;
     padding-left: 40px;
@@ -138,11 +139,11 @@ body{
     color:#000;
     z-index: 2;
     top:380px;
-    left:8%;
+    left:7%;
 }
 
 .menu-btn:hover{
-    background-color:  #c5c1c1;
+    background-color: #dad3d3;
     border: 1px solid #fff;
     color:#000;
 }
@@ -155,9 +156,9 @@ body{
     display: none;
     position: absolute;
     top:430px;
-    left:8%;
-    width: 232px;
-    background-color: #c5c1c1;
+    left:7%;
+    width: 242px;
+    background-color: #dad3d3;
     border-radius:5px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -177,7 +178,19 @@ body{
  .dropdown:hover .dropdown-content1 {
     display: block;
 }
-
+.carret{
+    position: absolute;
+    top: 510px;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    border-radius: 300px;
+    overflow: hidden;
+}
+.carret img{
+    margin-left: -10px;
+    margin-top: -5px
+}
 .mess{
     position: fixed;
     z-index: 200;
@@ -233,6 +246,7 @@ body{
     background-color: rgb(26, 20, 61);
     padding-top: 40px;
     padding-bottom: 80px;
+    padding-left: 40px;
     z-index: 89;
 }
 .blue h3{
@@ -243,17 +257,79 @@ body{
 .blue input{
     width: 80%;
     height:70px;
+    margin-top: 40px;
     border:0;
     border-radius: 6px;
     padding-left: 30px
 }
+.button{
+    background-color: darkgoldenrod;
+    width: 100px;
+    height:70px;
+    margin-top: 40px;
+    border-radius: 7px;
+    margin-left: -70px
+
+}
+.color{
+    color: rgb(238, 140, 12);
+}
+.list-wrapper{
+    background-color: #fff;
+    z-index: 277;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 190px
+}
+.list-wrapper img{
+    width: 55px
+}
+.list p{
+    font-size: 18px;
+    color: gray;
+}
+.list ul li{
+    margin-left: -35px;
+    list-style-type: none;
+    padding-top: 17px
+}
+.list ul li a{
+    color: rgb(27, 27, 27);
+    font-size: 17px;
+    
+}
+.list ul li a:hover{
+    color: rgb(238, 140, 12);
+    text-decoration: none
+}
+.title2{
+    margin-top: 40px
+}
 @media only screen and (max-width: 767px){
-    .back-im{
-        width: 100%;
-        height: 100%;
+    body{
         margin: 0;
+        overflow-x: hidden;
+    }
+    .menu-btn{
+        margin-top: 40px
+    }
+    .dropdown-content1{
+        margin-top: 40px
+    }
+    .back-im{
+        width: 120%;
+        height: 130%;
+        margin-left:-20px;
         overflow: hidden;
         position: fixed;
+    }
+    .back-im img{
+        width: 100%;
+        margin: 0
+    } 
+    .carret{
+        visibility: hidden;
     }
     .back-im img{
         width: 200%;
@@ -285,5 +361,21 @@ body{
     }
     .mess img{
         width: 45px
+    }
+    
+}
+@media only screen and (max-width: 1167px){
+    .button{
+        background-color: darkgoldenrod;
+        width:88%;
+        height:70px;
+        margin-top: 40px;
+        border-radius: 10px;
+        margin-left: 15px;
+    
+    }
+
+    .blue input{
+        width: 90%;
     }
 }
