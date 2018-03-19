@@ -19,6 +19,7 @@
     width: 100%;
     font-size: 16px;
     padding-top: 20px;
+    padding-left: 10px;
     padding-bottom: 12px;
     color:#bbbbbb;
     outline: none;
@@ -34,6 +35,7 @@
 .tabs{
     margin-top: 70px;
     text-align: center;
+    padding-bottom: 20px
     
 }
 .tabs .active{
@@ -189,9 +191,14 @@
     .top img{
         width: 95px
     }
+    .mytabs{
+        margin-top:30px;
+    }
     .tabs{
-        width: 90%;
-        margin-left: -50px
+        padding-bottom: 20px
+    }
+    #hoome{
+        padding-top: 0px
     }
     .myform input, .myform select, .myform option:focus{
         width: 90%;
