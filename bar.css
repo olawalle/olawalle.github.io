@@ -28,44 +28,31 @@
 #mobile-number{
     width: 250%
 }
-.active{
-    border: 0
-}
-.myform input:focus .myform select:focus{
+.myform input:focus{
     border-bottom: 1px solid #8470bb
 }
-
 .tabs{
-   
-    border: 0;
     margin-top: 70px;
     text-align: center;
     
 }
-.tabs a:active{
+.tabs .active{
     border-bottom: 1px solid #537dd8
 }
 .tabs a{
     font-size: 17px;
     color: rgba(0, 0, 0, 0.733);
-    text-decoration: none
-}
-.tabs a{
+    text-decoration: none;
     padding-bottom: 10px;
     border-bottom: 1px solid #dbdbdb
 }
 
-.tabs a:active{
-    font-size: 18px;
-    color: rgba(0, 0, 0, 0.733);
-    text-decoration: underline
-}
 .tabs li{
     width: 50%;
     text-align: center
 }
 .mytabs{
-    margin-top: 95px;
+    margin-top: 80px;
 }
 #hoome{
     padding-top: 30px
@@ -86,15 +73,34 @@
 .submit{
     width: 40%;
     background-color: #929bc4;
-    padding: 10px;
     border: 0;
+    padding: 10px;
     color: #fff;
     font-size: 16px;
     margin-top: 50px;
     border-radius: 60px
 }
+@keyframes slide{
+    0%{
+        margin-left: 0px 
+    }
+    .65%{
+        margin-left: 20px
+    }
+    100%{
+        margin-left: 20px
+    }
+}
+.submit:hover{
+    background-color: #687ac9;
+}
+.submit:hover i{
+    margin-left: 0px;
+    animation-name:slide;
+    animation-duration: 30s
+}
 .buttons{
-    margin-top: 180px
+    margin-top: 155px
 }
 
 .links{
@@ -167,6 +173,11 @@
 .sec i{
     margin-left: 100px
 }
+.mees{
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+}
 @media only screen and (max-width:800px){
     body{
         margin-top: 60px;
@@ -189,9 +200,8 @@
         width: 100%
     }
     .buttons{
-        margin-top: 20px;
-        padding: 40px;
-        padding-left: 40px
+        margin-top: 10px;
+        padding-left: 70px
     }
     .submit{
         width: 70%

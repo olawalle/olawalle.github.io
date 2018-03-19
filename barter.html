@@ -1,7 +1,7 @@
 <!DOCTYPE html>
     <html lang="en">
         <head>
-            <title>Bootstrap Example</title>
+            <title>Login form sample</title>
                <meta charset="utf-8">
                <meta name="viewport" content="width=device-width, initial-scale=1">
                     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -15,11 +15,12 @@
         <body>
             <div class="container body col-md-12">
                <div class="row">
-                    <div class="col-md-6 col-md-offset-1 col-sm-6 top">
+                    <div class="col-md-6 col-md-offset-1 col-sm-6 top ">
                        <img src="lll.png">
-                       <div class="tabs">
-                         <a data-toggle="tab" class="col-md-6" href="#home">Register</a>
-                         <a data-toggle="tab" class="col-md-5 col-md-offset-1" href="#menu1">Login</a>
+                       <div class="tabs" id="myDIV">
+                         <a data-toggle="tab" class="col-md-6 mybtn active" href="#home">Register</a>
+                         <a data-toggle="tab" class="col-md-5 mybtn col-md-offset-1" href="#menu1">Login</a>
+                         
                        </div>
                      <div class="tab-content mytabs " id="hoome">
                             <p>Barter makes online payments safe and easy, with a new virtual card for each place you pay online.</p><br>
@@ -48,7 +49,7 @@
                     </div> 
                 </div> 
                       
-                <div class="col-md-3 col-sm-4 col-sm-offset-2 buttons">
+                <div class="col-md-3 col-sm-4 buttons">
                         <p class="btn-text">
                             You can sign in using your accounts on these sites:
                         </p>
@@ -68,7 +69,26 @@
                     </div> 
                  </div>
             </div>
+            <div class="mees">
+               <a href="#"> <img src="mees.png"></a>
+            </div>
 </div>
+<script>
+    // Get the container element
+var btnContainer = document.getElementById("myDIV");
+
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsByClassName("mybtn");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
             <!-- Load jQuery from CDN so can run demo immediately -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="build/js/intlTelInput.js"></script>
