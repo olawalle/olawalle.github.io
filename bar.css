@@ -34,9 +34,7 @@
 .myform input:focus .myform select:focus{
     border-bottom: 1px solid #8470bb
 }
-#mobile-numbe{
-    width: 100%
-}
+
 .tabs{
    
     border: 0;
