@@ -1,0 +1,125 @@
+body{
+    font-family:Lora;
+    background:linear-gradient(rgba(47,23,15,.65),rgba(47,23,15,.65)),url(../img/library.jpeg);
+    background-attachment:fixed;
+    width: 100%;
+    overflow-x: hidden
+    
+}
+.container{
+    max-width: 100%;
+    overflow-x: hidden
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:Raleway
+}
+p{
+    line-height:1.75
+}
+.navbar{
+    background-color: rgb(80, 41, 5);
+    padding: 10px;
+    width: 100%
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 40px;
+    font-family: monospace
+}
+.links li a{
+    color: #fff;
+    font-size: 18px
+}
+.links li a:hover{
+    color: rgb(201, 150, 109);
+    font-size: 18px;
+    background-color: rgb(80, 41, 5);
+}
+.content{
+    margin-top: 120px
+}
+.text-faded{
+    color:rgba(255,255,255,.3)
+}
+.site-heading{
+    margin-top:5rem;
+    margin-bottom:5rem;
+    text-transform:uppercase;
+    line-height:1;
+    font-family:Raleway
+}
+.site-heading .site-heading-upper{
+    display:block;
+    color: #fff;
+    font-size:2rem;
+    font-weight:800
+}
+.site-heading .site-heading-lower{
+    font-size:5rem;
+    font-weight:100;
+    color: #fff;
+    margin-top: 30px;
+    line-height:4rem
+}
+.section-heading{
+    text-transform:uppercase
+}
+.bg-faded{
+    background-color:rgba(255,255,255,.85);
+    padding: 30px;
+    border-radius:10px
+}
+
+.btn-xl{
+    font-weight:700;
+    font-size:.8rem;
+    padding-top:1.5rem;
+    padding-bottom:1.5rem;
+    padding-left:2rem
+    ;padding-right:2rem
+}
+
+.content-text{
+    margin-top: 40px;
+    background-color: #fff;
+    padding-left: 150px;
+    padding-right:150px;
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+.topic{
+    padding-top: 100px;
+    color:  rgb(80, 41, 5);
+    padding-bottom: 20px
+}
+.story{
+    font-size: 12px;
+    line-height: 25px;
+    text-align: justify
+}
+.con{
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-top: 20px
+}
+.down{
+    width: 120px
+}
+#appendix1{
+    margin-top: 100px
+}
+@media screen and (max-width:964px){
+    body{
+        overflow-x: hidden
+    }
+    .container{
+        max-width: 100%;
+        overflow-x: hidden
+    }
+    .content-text{
+        padding:40px
+    }
+    .two{
+        margin-top: 30px
+    }
+}
