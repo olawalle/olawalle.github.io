@@ -12,6 +12,8 @@ position: absolute;
 right: 2%;
 margin-top: -10px;
 z-index: 12;
+    font-size:15px;
+    color:#FFf
 }
 .container{
     max-width: 100%;
