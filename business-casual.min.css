@@ -1,6 +1,6 @@
 body{
     font-family:Lora;
-    background:linear-gradient(rgba(47,23,15,.65),rgba(47,23,15,.65)),url(../library.jpeg);
+    background:linear-gradient(rgba(47,23,15,.65),rgba(47,23,15,.65)),url(../img/library.jpeg);
     background-attachment:fixed;
     width: 100%;
     overflow-x: hidden
@@ -12,8 +12,6 @@ position: absolute;
 right: 2%;
 margin-top: -10px;
 z-index: 12;
-    font-size:15px;
-    color:#FFf
 }
 .container{
     max-width: 100%;
@@ -34,9 +32,17 @@ p{
     z-index: 10;
     width: 100%
 }
+.navbar-brand:hover {
+    color: #fff
+}
 .navbar-brand{
     color: #fff;
     font-size: 40px;
+    font-family: monospace
+}
+.navbar-brand span{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
     font-family: monospace
 }
 .links li a{
@@ -85,7 +91,7 @@ p{
 
 .btn-xl{
     font-weight:700;
-    font-size:.8rem;
+    font-size:16px;
     padding-top:1.5rem;
     padding-bottom:1.5rem;
     padding-left:2rem
@@ -121,6 +127,38 @@ p{
 #appendix1{
     margin-top: 100px
 }
+.form{
+    padding-top: 50px;
+    background-color: brown;
+    margin-top: 100px;
+    padding-bottom: 50px
+}
+.myform input{
+    margin-top : 10px;
+    padding-left: 20px;
+    border: 1px solid #dbdbdb;
+    height:50px;
+    padding-bottom: 20px;
+    border-radius:5px;
+    width: 90%
+
+}
+.Message h5{
+    color:#fff
+}
+.Message textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid #dbdbdb
+}
+.Message button{
+    width: 100%
+}
+.small{
+    color:#fff;
+    font-size: 15px;
+    margin-top: 20px
+}
 @media screen and (max-width:964px){
     body{
         overflow-x: hidden
@@ -128,6 +166,22 @@ p{
     .container{
         max-width: 100%;
         overflow-x: hidden
+    }
+    .navbar-brand{
+        color: #fff;
+        font-size: 20px;
+        font-family: monospace
+    }
+    .navbar-brand span{
+        color: rgb(255, 255, 255);
+        font-size: 13px;
+        font-family: monospace
+    }
+    .links{
+        padding-right: 50px
+    }
+    .paa{
+        display: block;
     }
     .content-text{
         padding:40px
