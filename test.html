@@ -12,11 +12,11 @@
     <div class="col-md-12 wrap">
     <div class="col-md-4 col-md-offset-4">
             <div class="row screen">
-                    <input type="text" name="display" id="display" >
-                    <input type="text" name="display" id="output" >
+                    <input type="text" value="" id="display" maxlength="6" >
+                    <input type="text" name="display" value="0" id="output" maxlength="6">
             </div>
     <div class="row buttons">
-        <button class="col-xs-3 button" onclick="display.value =''"> <p>C</p></button>
+        <button class="col-xs-3 button" onclick="clearScrn()" > <p>C</p></button>
         <button class="col-xs-3 button"> <p></p> </button>
         <button class="col-xs-3 button"  onclick="output.value = eval((display.value)/100)"> <p>%</p></button>
         <button class="col-xs-3 last"> <p>+</p> </button>
@@ -47,5 +47,12 @@
     </div>
     </div> 
     </div>
+    <script>
+        function clearScrn() {
+            document.getElementById ("display").value = " ";
+            document.getElementById ("output").value = "0 ";
+
+        }
+    </script>
 </body>
 </html>
