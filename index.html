@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Olawalle's</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:600" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        	<!-- jQuery Plugins -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+   </head>
+    <body onload="typeWriter()">
+        <nav>
+            <span class="top-text">Olawalle</span>
+            <div class="loo">
+                        <img src="me2.jpg"/>
+                      </div>
+                 <div class="links">
+                    <a href="https://www.behance.net/olawalle94c375"><i class="fa fa-behance"></i></a>
+                    <a href="https://github.com/olawalle/"><i class="fa fa-github"></i></a>
+                    <a href="https://www.twitter.com/im_whaley"><i class="fa fa-twitter"></i></a>             
+                </div>
+        </nav>
+        <div class="col-md-6 col-md-order-1">
+                 <div id="f1_container">
+                    <div id="f1_card" class="shadow">
+                      <div class="front face">
+                        <img src="me.jpg"/>
+                      </div>
+                      <div class="back face center">
+                        <img src="meee.jpg"/>
+                      </div>
+                    </div>
+                 </div>
+            </div> 
+         <div class="col-md-6 wrapper col-md-order-2"> 
+             <div class="story "> 
+                <div class="text">
+                    <p id="demo"> </p>
+                    <p class="innerText"> I design cool user interfaces and I code .
+                    Im am proficient with <span>HTML5</span>, <span>CSS3</span>, <span>Bootstrap</span>, <span>javascript</span>, <span>JQuery</span> and <span>Angular4</span> .<br>
+                    I love <span class="tint">artworks</span>, <span class="tint">movies</span>  , <span class="tint">puzzles </span>& <span class="tint"> music </span><br>( I play the piano,violin & the guitar <a href="#">#OliverTwist</a>) <br>
+                    if you want to know more,<i class="em em-call_me_hand"></i>
+                    </p>
+                </div>
+                    <!-- <div class="dropdown">
+                        <button class="top-btn"><p>Projects  <span class="caret"></span></p> </button>
+                            <div class="dropdown-content2">
+                                <a href="ernest.html">Ernest Oje clone</a>
+                                <a href="flutter.html">Flutterwave clone</a>
+                            </div>
+                        </div> -->
+                </div>  
+            </div>  
+    
+    <script>
+    var i = 0;
+    var txt = 'My name is Ariyo Olawale.</>' ;
+    
+
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("demo").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, 120);
+      }
+    }
+    </script>
+    <script>
+    $("img").mouseenter(function(){
+        $(".wrapper").css({"background-color": "#000024"});
+        $("nav").css({"background-color": "#07021d"});
+        $(".top-text").css({"color": "#fff"});
+    });
+    $("img").mouseleave(function(){
+        $(".wrapper").css({"background-color": "#000"});
+        $("nav").css({"background-color": "#000"});
+        $(".top-text").css({"color": "#000"});
+
+    });
+    </script>
+    
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </body>
+</html>
