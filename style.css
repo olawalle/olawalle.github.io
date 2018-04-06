@@ -192,10 +192,6 @@ body{
     transform-style: preserve-3d;
   transition: all 0.5s linear;
 }
-.links a:hover {
-    font-size:20px;
-    color: #fff;
-}
 
 .wrapper{
    z-index: 9;
