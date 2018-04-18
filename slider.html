@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Swiper demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/swiper.min.css">
+  <!-- Bootstrap -->
+ <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+ <link rel="stylesheet" type="text/css" href="style.css" >
+             <!-- Font Awesome Icon -->
+             <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+ <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+            <!-- jQuery Plugins -->
+ <script type="text/javascript" src="js/jquery.min.js"></script>
+<style>
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #000;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .swiper-slide {
+        font-size: 18px;
+        background: transparent;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    body {
+        transition: background-color 1s ease-in-out;
+    }
+
+    body.deep {
+        background-color: #000024;
+    }
+
+    body.black {
+        background-color: #000;
+    }
+    </style>
+</head>
+<body onload="typeWriter()">
+
+<!-- Slider main container -->
+<div class="swiper-container">
+    <nav>
+        <span class="top-text">Olawalle</span>
+            <div class="loo">
+                <img src="me2.jpg"/>
+            </div>
+            <div class="links">
+                <a href="https://www.behance.net/olawalle94c375"><i class="fa fa-behance"></i></a>
+                <a href="https://github.com/olawalle/"><i class="fa fa-github"></i></a>
+                <a href="https://www.twitter.com/im_whaley"><i class="fa fa-twitter"></i></a>             
+            </div>
+        </nav>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" data-bg="deep">
+           
+        <div class="screen1">
+        <div class="col-md-12 ee">
+            <div class="col-md-6 col-md-order-1">
+                <div id="f1_container">
+                    <div id="f1_card" class="shadow">
+                        <div class="front face">
+                            <img src="meee.jpg"/>
+                        </div>
+                    <div class="back face center">
+                        <img src="me.jpg"/>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="col-md-6 wrapper col-md-order-2"> 
+            <div class="story "> 
+                <div class="text">
+                    <h2><p id="demo"> </p></h2>
+                    <p class="innerText"> I design cool user interfaces and I code .
+                    I am proficient with <span>HTML5</span>, <span>CSS3</span>, <span>Bootstrap</span>, <span>Javascript</span>, <span>JQuery</span> and <span>AngularJS</span> .<br>
+                    I love <span class="tint">artworks</span>, <span class="tint">movies</span>, <span class="tint">puzzles </span>& <span class="tint"> music </span><br>( I play the piano, violin & the guitar <a href="#">#OliverTwist</a>) <br>
+                    Swipe up to see some of my works<i class="em em-call_me_hand"></i>
+                    </p>
+                </div>
+                </div>  
+            </div>  
+        </div>
+    </div>
+    </div>
+    <div class="swiper-slide" data-bg="deep">
+            <div class="col-md-12 sect">
+                    <div class="col-md-6 pane">
+                        <div class="sect row">
+                            <img src="jbz.jpg" alt="sports landin pic">
+                            <h5>
+                                A simple landing page for a jobs sharing platform built to be mobile responsive
+                            </h5>
+                            <br>
+                                <span class="visit">
+                                  <i class="fa fa-github"></i>  view project on github
+                                </span>
+                        </div>
+                        <div class="row">
+                              
+                        </div>
+                    </div>
+                    <div class="col-md-6 pane">
+                        <div class="sect row">
+                            <img src="simi.jpg" alt="sports landin pic">
+                        </div>
+                        <div class="row">
+                            <h5>
+                                A landing page i built for a Nigerian Kitchen/Restaurant site
+                            </h5>
+                            <br>
+                                <span class="visit">
+                                  <i class="fa fa-github"></i>  view project on github
+                                </span>
+                        </div>
+                    </div>
+                </div>
+    </div>
+        <div class="swiper-slide" data-bg="black">
+            <div class="col-md-12">
+                <div class="col-md-6 pane">
+                    <div class="sect row">
+                        <img src="sprt.jpg" alt="sports landin pic">
+                    </div>
+                    <div class="row">
+                       <h5>
+                           A simple landing page for a sportsbet site
+                       </h5> 
+                       <br>
+                                <span class="visit">
+                                  <i class="fa fa-github"></i>  view project on github
+                                </span>    
+                    </div>
+                </div>
+                <div class="col-md-6 pane">
+                    <div class="sect row">
+                        <img src="flutt.jpg" alt="sports landin pic">
+                    </div>
+                    <div class="row">
+                        <h5>
+                            A Clone of Flutterwaves landing page.
+                        </h5>
+                        <br>
+                            <span class="visit">
+                                <i class="fa fa-github"></i>  view project on github
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide" data-bg="deep">
+                <div class="col-md-12">
+                        <div class="col-md-6 pane">
+                            <div class="sect row">
+                                <img src="sammie.jpg" alt="sports landin pic">
+                            </div>
+                            <div class="row">
+                               <h5>
+                                   A landing photography for a website built for my SGA application using Bootstrap 
+                               </h5>  
+                               <br>
+                                <span class="visit">
+                                  <i class="fa fa-github"></i>  view project on github
+                                </span>   
+                            </div>
+                        </div>
+                        <div class="col-md-6 pane">
+                            <div class="sect row">
+                                <img src="calc.jpg" alt="sports landin pic">
+                            </div>
+                            <div class="row">
+                                <h5>
+                                    A simple arithmetic calculator built with bootstrap and Javascript and hosted on github
+                                </h5>
+                                <br>
+                                <span class="visit">
+                                  <i class="fa fa-github"></i>  view project on github
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+        <div class="swiper-slide" data-bg="black">
+                <div class="col-md-12">
+                        <div class="col-md-6 pane">
+                            <div class="sect row">
+                                <img src="ern.jpg" alt="sports landin pic">
+                            </div>
+                            <div class="row">
+                               <h5>
+                                   A Clone of Ernest ojeh's portfolio website
+                               </h5>
+                               <br>
+                                <span class="visit">
+                                  <i class="fa fa-github"></i>  view project on github
+                                </span>     
+                            </div>
+                        </div>
+                        <div class="col-md-6 pane">
+                            <div class="sect row">
+                                <img src="kene.jpg" alt="sports landin pic">
+                            </div>
+                            <div class="row">
+                                <h5>
+                                    A clone of Kene Udeze's portfolio website
+                                </h5>
+                                <br>
+                                <span class="visit">
+                                  <i class="fa fa-github"></i>  view project on github
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
+<script>
+var body = document.body;
+body.className = 'red';
+var slider = new Swiper ('.swiper-container', {
+    pagination: '.swiper-pagination',
+    direction: 'vertical',
+    slidesPerView: 1,
+    paginationClickable: true,
+    spaceBetween: 90,
+    mousewheelControl: true,
+    onSlideChangeStart: function (swiper) {
+        var currentSlide = swiper.slides[ swiper.activeIndex ];
+        body.className = currentSlide.getAttribute( 'data-bg' );
+        console.log( currentSlide.getAttribute( 'data-bg' ) );
+    },
+});
+
+</script>
+  <script>
+    var i = 0;
+    var txt = 'My name is Ariyo Olawale.</>' ;
+    
+
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("demo").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, 120);
+      }
+    }
+    </script>
+    <script>
+    $("img").mouseenter(function(){
+         $(".screen1").css({"background-color": "#000"});
+        $(".wrapper").css({"background-color": "#000"});
+        $("nav").css({"background-color": "#07021d"});
+        $(".top-text").css({"color": "#000"});
+    });
+    $("img").mouseleave(function(){
+         $(".screen1").css({"background-color": "#000024"});
+        $(".wrapper").css({"background-color": "#000024"});
+        $("nav").css({"background-color": "#000"});
+        $(".top-text").css({"color": "#fff"});
+
+    });
+    </script>
+    
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

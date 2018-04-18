@@ -2,12 +2,35 @@
    font-family: 'Montserrat', sans-serif;
 }
 body{
-    width: 100%;
-    margin: 0;
-    height:100%;
-    overflow: hidden;
+  height:640px;
+  padding: 0;
+  margin: 0;
+  color: #fff
 }
 
+
+    #btn{
+        position: absolute;
+        bottom: 60px;
+        right: 60px;
+        color: #fff;
+        z-index: 999
+    }
+.screen1{
+  position: absolute;
+  top: 0;
+  opacity: 2;
+  z-index: 2;
+  margin: 0;
+  width: 100%;
+  height:700px;
+  transition: background-color 1s ease-in-out;
+  overflow: hidden
+}
+.ee{
+  margin: 0;
+  padding: 0
+} 
 .me{
     width: 100%;
     height:100%;
@@ -27,8 +50,8 @@ body{
     position: absolute;
     top:20px;
     left:20px;
-    font-weight:500; 
-    color: #000;
+    font-weight:600; 
+    color: #fff;
     z-index: 19;
     font-size: 35px;
     font-family:'Courier New', Courier, monospace
@@ -36,8 +59,8 @@ body{
 
 .wrapper{
    z-index: 9;
-   height: 800px;
-   background-color: #000;
+   height: 725px;
+   background-color: #000024;
    transition: all 1.0s linear;
 }
 
@@ -93,7 +116,7 @@ body{
 }
 #f1_container {
   perspective: 1000;
-  margin-left: -20px
+  margin-left: -50px
 }
 #f1_card {
   transform-style: preserve-3d;
@@ -157,6 +180,38 @@ body{
     display: block;
 }
 */
+.sect{
+    align-items: center
+}
+.sect img{
+    position: ;
+    z-index: 10;
+    margin-left: 5%;
+    width: 90%;
+    margin-top: -70px
+}
+.sect img:hover{
+    width:100%;
+    margin-left: 0;
+    transition: all 2s
+}
+.pane h5{
+    position: ;
+    top: 180px;
+    margin-left: 5%;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 15px
+}
+.visit{
+    position: ;
+    top: 240px;
+    margin-left: 5%;
+    background-color: #fff;
+    padding: 20px
+}
+
  @media only screen and (max-width: 967px){
 
     body{
@@ -167,7 +222,7 @@ body{
     top:20px;
     left:20px;
     font-weight:500; 
-    color: #000;
+    color: #fff;
     z-index: 19;
     font-size: 25px;
     font-family:'Courier New', Courier, monospace
@@ -228,6 +283,23 @@ body{
     
  .innerText{
     margin-top: -100px
+    }
+    .pane{
+        border-bottom: 1px solid #fff
+    }
+    .sect img{
+        position: ;
+        top: 100px;
+        width: 90%;
+        margin-left: 0;
+        margin-top: 30px
+    }
+    .pane h5{
+        color: #fff;
+        font-size: 14px
+    }
+    .visit{
+        padding: 10px;
     }
  }
 
