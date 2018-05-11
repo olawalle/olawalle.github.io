@@ -239,13 +239,13 @@ nav{
     font-size: 25px;
     font-family:'Courier New', Courier, monospace
    }
-   .loo img{
+/*    .loo img{
     display: block;
     width: 82px;
     position: absolute;;
     top: 0px;
     right: 0px
-   }
+   } */
 .links{
     position: absolute;
     top: 580px;
