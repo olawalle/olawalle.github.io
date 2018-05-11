@@ -113,7 +113,6 @@ nav{
   transition: all 0.5s linear;
 }
 .links a:hover {
-    transform: rotateX(180deg);
     font-size:30px;
     color: #fff;
 }
@@ -249,7 +248,7 @@ nav{
 .links{
     position: fixed;
     top: 10px;
-    left:65%;
+    left:58%;
     z-index: 20;
 }
 .links a{
