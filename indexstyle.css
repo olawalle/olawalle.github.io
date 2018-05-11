@@ -115,8 +115,8 @@ nav{
 .links a:hover {
     font-size:30px;
     color: #fff;
-   transform-style: preserve-3d;
-  transition: all 0.5s linear
+    transform-style: preserve-3d;
+  transition: all 0.5s linear;
 }
 #f1_container {
   position: relative;
@@ -250,7 +250,7 @@ nav{
 .links{
     position: fixed;
     top: 10px;
-    left:58%;
+    left:65%;
     z-index: 20;
 }
 .links a{
@@ -275,6 +275,7 @@ nav{
 .text{
      z-index: 9;
     margin-top: 0px
+    font-size:13px
 }
 .text  p{
      font-size:16px ;
