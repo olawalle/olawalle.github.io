@@ -239,13 +239,13 @@ nav{
     font-size: 25px;
     font-family:'Courier New', Courier, monospace
    }
-/*    .loo img{
+   .loo img{
     display: block;
     width: 82px;
-    position: absolute;;
+    position: absolute;
     top: 0px;
     right: 0px
-   } */
+   }
 .links{
     position: absolute;
     top: 580px;
@@ -284,13 +284,13 @@ nav{
      text-align: left;
      }
   .story{
-    margin-top: 80px;
+    margin-top: -60px;
   }
  .tint{
      color: rgb(185, 159, 44);
  }  
  #demo{
-     margin-top: 50px
+     margin-top: 20px
  }   
     
  .innerText{
