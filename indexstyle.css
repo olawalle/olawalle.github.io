@@ -242,7 +242,7 @@ nav{
    .loo img{
     display: block;
     width: 82px;
-    position: absolute;
+    position: absolute;;
     top: 0px;
     right: 0px
    }
@@ -276,7 +276,7 @@ nav{
     margin-top: 0px
 }
 .text  p{
-     font-size:12px ;
+     font-size:16px ;
      font-weight: 300px;
      z-index: 9;
      padding: 50px;
@@ -284,13 +284,13 @@ nav{
      text-align: left;
      }
   .story{
-    margin-top: -60px;
+    margin-top: -10px;
   }
  .tint{
      color: rgb(185, 159, 44);
  }  
  #demo{
-     margin-top: 20px
+     margin-top: 50px
  }   
     
  .innerText{
