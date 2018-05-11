@@ -115,6 +115,8 @@ nav{
 .links a:hover {
     font-size:30px;
     color: #fff;
+   transform-style: preserve-3d;
+  transition: all 0.5s linear
 }
 #f1_container {
   position: relative;
