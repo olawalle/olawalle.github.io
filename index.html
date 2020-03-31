@@ -1,41 +1,42 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Olawalle</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-  <!-- Bootstrap -->
-<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="indexstyle.css" >
-             <!-- Font Awesome Icon -->
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/swiper.min.css">
-            <!-- jQuery Plugins -->
-
-            <script type="text/javascript" src="js/jquery.min.js"></script>            
-<style>
-    html, body {
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- Font Awesome Icon -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+    <!-- jQuery Plugins -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <style>
+      html,
+      body {
         position: relative;
         height: 100%;
-    }
-    body {
-        color:#000;
-        background-color: #000024;
+      }
+      body {
+        background: #000;
+        font-size: 14px;
+        color: #000;
         margin: 0;
         padding: 0;
-    }
-    .swiper-container {
+      }
+      .swiper-container {
         width: 100%;
         height: 100%;
         margin-left: auto;
         margin-right: auto;
-    }
-    .swiper-slide {
+      }
+      .swiper-slide {
         font-size: 18px;
         background: transparent;
-        width: 100%;
-        height: 100%;
 
         /* Center slide text vertically */
         display: -webkit-box;
@@ -50,222 +51,249 @@
         -ms-flex-align: center;
         -webkit-align-items: center;
         align-items: center;
-    }
-
-    body {
-        transition: background-color 1s ease-in-out;
-        transform-style: preserve-3d
-    }
-
-    body.deep {
-        background-color: #000024;
-    }
-
-    body.black {
-        background-color: #000;
-    }
-    </style>
-</head>
-<body onload="typeWriter()" >
-
-<!-- Slider main container -->
-<div class="swiper-container">
-    <nav>
-        <span class="top-text">Olawalle</span>
-            <div class="links">
-                <a href="https://www.behance.net/olawalle94c375"><i class="fa fa-behance"></i></a>
-                <a href="https://github.com/olawalle/"><i class="fa fa-github"></i></a>
-                <a href="https://www.twitter.com/im_whaley"><i class="fa fa-twitter"></i></a>             
-            </div>
-        </nav>
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <div class="swiper-slide" data-bg="deep">
-            <div class="screen1">
-            <div class="col-md-12 ee">
-                <div class="col-md-6 col-md-order-1">
-                    <div id="f1_container">
-                        <div id="f1_card" class="shadow">
-                            <div class="front face">
-                                <img class="img" src="meee.jpg" />
-                            </div>
-                            <div class="back face center">
-                                <img class="img" src="me.jpg"/>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-            <div class="col-md-6 wrapper col-md-order-2"  > 
-                <div class="story "> 
-                    <div class="text">
-                        <h2><p id="demo"> </p></h2>
-                        <p class="innerText"> I design cool user interfaces and I code .
-                        I am proficient with <span>HTML5</span>, <span>CSS3</span>, <span>LESS/SASS</span>, <span>JavaScript</span>, and Javascript frameworks like <span>Angular, VueJs and ReactJs </span> .<br>
-                        I love <span class="tint">artworks</span>, <span class="tint">movies</span>, <span class="tint">puzzles </span>& <span class="tint"> music </span><br>( I play the piano, violin & the guitar <a href="#">#OliverTwist</a>) <br>
-                       <!--  Swipe up to see some of my works<i class="em em-call_me_hand"></i> -->
-                        </p>
-                    </div>
-                    </div>  
-                </div>  
-            </div>
-            </div>
-            </div>          
-      </div>
-      <div class="swiper-slide">
-        <div class="col-md-12 sect">
-            <div class="col-md-6 pane" >
-                <div class="sect row">
-                    <img src="jbz.jpg" alt="sports landin pic" data-tilt>
-                    <h5>
-                        A simple landing page for a jobs sharing platform built to be mobile responsive
-                    </h5>
-                    <br>
-                        <button class="visit">
-                          <i class="fa fa-github"></i> 
-                          <a href="https://github.com/olawalle/SGA-2.0">view project on github</a> 
-                        </button>
-                </div>
-                <div class="row">
-                      
-                </div>
-            </div>
-            <div class="col-md-6 pane" >
-                <div class="sect row">
-                    <img src="simi.jpg" alt="sports landin pic" data-tilt>
-                </div>
-                <div class="row">
-                    <h5>
-                        A landing page i built for a Nigerian Kitchen/Restaurant site
-                    </h5>
-                    <br>
-                        <button class="visit">
-                          <i class="fa fa-github"></i> 
-                          <a href="https://github.com/olawalle/SGA-2.0">view project on github</a> 
-                        </button>
-                </div>
-            </div>
-        </div>          
-      </div>
-      <div class="swiper-slide" data-bg="black">
-        <div class="col-md-12">
-            <div class="col-md-6 pane" >
-                <div class="sect row">
-                    <img src="sprt.jpg" alt="sports landin pic" data-tilt>
-                </div>
-                <div class="row">
-                   <h5>
-                       A simple landing page for a sportsbet site
-                   </h5> 
-                   <br>
-                        <button class="visit">
-                            <i class="fa fa-github"></i> 
-                            <a href="https://github.com/olawalle/SGA-2.0"> view project on github</a>
-                        </buton>    
-                </div>
-            </div>
-            <div class="col-md-6 pane" >
-                <div class="sect row">
-                    <img src="flutt.jpg" alt="sports landin pic" data-tilt>
-                </div>
-                <div class="row">
-                    <h5>
-                        A Clone of Flutterwaves landing page.
-                    </h5>
-                    <br>
-                        <button class="visit">
-                            <i class="fa fa-github"></i> 
-                            <a href="https://github.com/olawalle/Flutterwave-clone"> view project on github</a>
-                        </button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="swiper-slide" data-bg="deep">
-            <div class="col-md-12">
-                    <div class="col-md-6 pane">
-                        <div class="sect row">
-                            <img src="sammie.jpg" alt="sports landin pic" data-tilt>
-                        </div>
-                        <div class="row">
-                           <h5>
-                               A landing photography for a website built for my SGA application using Bootstrap 
-                           </h5>  
-                           <br>
-                            <button class="visit">
-                              <i class="fa fa-github"></i>
-                               <a href="https://github.com/olawalle/SGA-2.0"> view project on github</a>
-                            </button>   
-                        </div>
-                    </div>
-                    <div class="col-md-6 pane">
-                        <div class="sect row">
-                            <img src="calc.jpg" alt="javascriptCalcuator" data-tilt>
-                        </div>
-                        <div class="row">
-                            <h5>
-                                A simple arithmetic calculator built with bootstrap and Javascript and hosted on github
-                            </h5>
-                            <br>
-                            <button class="visit">
-                              <i class="fa fa-github"></i>
-                              <a href="https://github.com/olawalle/javascriptCalcuator"> view project on github</a> 
-                            </button>
-                        </div>
-                    </div>
-                </div>
-    </div>
-</div>
-    </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
-    <!-- Add Arrows -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-  </div>
-
-<script src="js/swiper.min.js"></script>
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'progressbar',
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-  </script>
-  <script>
-    var i = 0;
-    var txt = 'My name is Ariyo Olawale.</>' ;
-    
-
-    function typeWriter() {
-      if (i < txt.length) {
-        document.getElementById("demo").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, 120);
       }
-    }
+
+      body {
+        transition: background-color 1s ease-in-out;
+      }
+
+      body.deep {
+        background-color: #000024;
+      }
+
+      body.black {
+        background-color: #000;
+      }
+      .swiper-pagination-bullet-active {
+        background-color: #9d872a !important;
+      }
+      .swiper-pagination-bullet {
+        background-color: #ffb83e;
+      }
+    </style>
+  </head>
+  <body onload="typeWriter()">
+    <!-- Slider main container -->
+    <div class="swiper-container">
+      <nav>
+        <span class="top-text">Olawalle</span>
+        <div class="loo">
+          <img src="./assets/me2.jpg" />
+        </div>
+        <div class="links">
+          <a href="./assets/Resume.docx"><i class="fa fa-file"></i></a>
+          <a href="https://github.com/olawalle/"><i class="fa fa-github"></i></a>
+          <a href="https://www.twitter.com/im_whaley"><i class="fa fa-twitter"></i></a>
+        </div>
+      </nav>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" data-bg="deep">
+          <div class="screen1">
+            <div class="col-md-12 ee">
+              <div class="col-md-6 col-md-order-1">
+                <div id="f1_container">
+                  <div id="f1_card" class="shadow">
+                    <div class="front face">
+                      <img src="./assets/meee.jpg" />
+                    </div>
+                    <div class="back face center">
+                      <img src="./assets/me.jpg" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 wrapper col-md-order-2">
+                <div class="story ">
+                  <div class="text">
+                    <h2><p id="demo"></p></h2>
+                    <p class="innerText">
+                      I build cool user interfaces. I am proficient with <span>HTML5</span>, <span>CSS3</span>, <span>LESS/SASS</span>,
+                      <span>JavaScript</span>, and Javascript frameworks like <span>Angular, VueJs and ReactJs </span> .<br />
+                      I love <span class="tint">artworks</span>, <span class="tint">movies</span>, <span class="tint">puzzles </span>&
+                      <span class="tint"> music </span><br />( I play the piano, violin & the guitar <a href="#">#OliverTwist</a>) <br />
+                      Swipe up to see some of my works<i class="em em-call_me_hand"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" data-bg="deep">
+          <div class="col-md-12 full">
+            <div class="col-md-6 pane">
+              <div class="sect row">
+                <img src="./assets/stutern.png" alt="sports landin pic" class="web" />
+              </div>
+            </div>
+            <div class="col-md-6 pane">
+              <h5>
+                This is a web app where Stutern (A web development training agency) showcases its graduates while advertising for open
+                tracks of admission. It help them manage the hirign process as available tracks are created by the admin and readily
+                available to viewers of the site. It also features a section for filling out the first step of the application process.
+              </h5>
+              <br />
+              <span class="visit"> View Project <i class="fa fa-arrow-right"></i> </span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" data-bg="deep">
+          <div class="col-md-12 full">
+            <div class="col-md-6 pane">
+              <div class="sect row">
+                <img src="./assets/glamour.png" alt="sports landin pic" class="web" />
+              </div>
+            </div>
+            <div class="col-md-6 pane">
+              <h5>
+                Glamour is a marketplace fro Beauty experts in the UK and its environs to set up shop online. Subscribers create their
+                profiles which include services that they offer and also a catalogue of their past work. They also set a calendar of
+                convenient times when they are available for work. Users then come on the site and schedule sessions with their preferred
+                beautician. The site aters for the scheduling, payments and review of services provided. Glamour was built using
+                ReactJS/NextJs
+              </h5>
+              <br />
+              <span class="visit"> View Project <i class="fa fa-arrow-right"></i> </span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" data-bg="deep">
+          <div class="col-md-12 full">
+            <div class="col-md-6 pane">
+              <div class="sect row">
+                <img src="./assets/cardinalstone.png" alt="sports landin pic" class="web" />
+              </div>
+            </div>
+            <div class="col-md-6 pane">
+              <h5>
+                The CardinalStone portal is a web interface where clients of the firm can login and monitor their investments within the
+                CardinalStone entity. Users can also buy and sell stokcs listed on the Nigerian Stocks Exchange. <br />
+                It was built using VueJS.
+              </h5>
+              <br />
+              <span class="visit"> View Project <i class="fa fa-arrow-right"></i> </span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" data-bg="deep">
+          <div class="col-md-12 full">
+            <div class="col-md-6 pane">
+              <div class="sect row">
+                <img src="./assets/csmobile.jpeg" alt="sports landin pic" class="mobile" />
+              </div>
+            </div>
+            <div class="col-md-6 pane">
+              <h5>
+                Csmobileis a mobile app equivalent of the Cardinalstone Portal .Users of the portal can login and monitor their investments
+                ,buy and sell stokcs listed on the Nigerian Stocks Exchange all from the comfort of their mobile devices. Available for both
+                Android and iOS <br />
+                It was built using VueJS.
+              </h5>
+              <br />
+              <span class="visit"> View Project <i class="fa fa-arrow-right"></i> </span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" data-bg="deep">
+          <div class="col-md-12 full">
+            <div class="col-md-6 pane">
+              <div class="sect row">
+                <img src="./assets/cryptonance-web.png" alt="sports landin pic" class="web" />
+              </div>
+            </div>
+            <div class="col-md-6 pane">
+              <h5>
+                Cryptonance is a marketplace for everything crypto. Its an ecosystem that hope to help in the everyday adoption of
+                cryptocurrencies. Subscribers can trade cryptocurrencies and also make payments easily from their cryptocurrency wallets
+              </h5>
+              <br />
+              <span class="visit"> View Project <i class="fa fa-arrow-right"></i> </span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" data-bg="deep">
+          <div class="col-md-12 full">
+            <div class="col-md-6 pane">
+              <div class="sect row">
+                <img src="./assets/cryptonance.png" alt="sports landin pic" class="mobile" />
+              </div>
+            </div>
+            <div class="col-md-6 pane">
+              <h5>
+                This is a mobile app sibling to the cryptonance web portal. It serves as a wallet from where users can easily access their
+                funds.
+              </h5>
+              <br />
+              <span class="visit"> View Project <i class="fa fa-arrow-right"></i> </span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" data-bg="deep">
+          <div class="col-md-12 full">
+            <div class="col-md-6 pane">
+              <div class="sect row">
+                <img src="./assets/flip.jpeg" alt="sports landin pic" class="mobile" />
+              </div>
+            </div>
+            <div class="col-md-6 pane">
+              <h5>
+                This is a mobile app for users intrested in reading quick articles on a rango of topics. This is currently no available for
+                public use yet.
+              </h5>
+              <br />
+              <span class="visit"> View Project <i class="fa fa-arrow-right"></i> </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
+    <script>
+      var body = document.body
+      body.className = 'red'
+      var slider = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        direction: 'vertical',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 90,
+        mousewheelControl: true,
+        onSlideChangeStart: function(swiper) {
+          var currentSlide = swiper.slides[swiper.activeIndex]
+          body.className = currentSlide.getAttribute('data-bg')
+          console.log(currentSlide.getAttribute('data-bg'))
+        }
+      })
     </script>
     <script>
-    $(".img").mouseenter(function(){
-         $(".screen1").css({"background-color": "#000"});
-        $(".wrapper").css({"background-color": "#000"});
-        $("nav").css({"background-color": "#07021d"});
-    });
-    $(".img").mouseleave(function(){
-         $(".screen1").css({"background-color": "#000024"});
-        $(".wrapper").css({"background-color": "#000024"});
-        $("nav").css({"background-color": "#000"});
+      var i = 0
+      var txt = 'My name is Ariyo Olawale.</>'
 
-    });
+      function typeWriter() {
+        if (i < txt.length) {
+          document.getElementById('demo').innerHTML += txt.charAt(i)
+          i++
+          setTimeout(typeWriter, 120)
+        }
+      }
     </script>
-    
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.js"></script>
+    <script>
+      $('img').mouseenter(function() {
+        $('.screen1').css({ 'background-color': '#000' })
+        $('.wrapper').css({ 'background-color': '#000' })
+        $('nav').css({ 'background-color': '#07021d' })
+        $('.top-text').css({ color: '#000' })
+      })
+      $('img').mouseleave(function() {
+        $('.screen1').css({ 'background-color': '#000024' })
+        $('.wrapper').css({ 'background-color': '#000024' })
+        $('nav').css({ 'background-color': '#000' })
+        $('.top-text').css({ color: '#fff' })
+      })
+    </script>
 
-</body>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </body>
 </html>
