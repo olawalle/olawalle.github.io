@@ -202,8 +202,10 @@ body {
   margin-left: 0;
   transition: all 2s;
 } */
+.pane {
+  padding-top: 100px;
+}
 .pane h5 {
-  top: 180px;
   margin-left: 5%;
   color: #b3b2b2;
   font-size: 16px;
