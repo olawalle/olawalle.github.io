@@ -185,6 +185,7 @@ body {
 .full {
   height: 90vh;
   margin-top: 10vh;
+  padding: 0 30px;
 }
 .sect {
   text-align: center;
@@ -204,6 +205,8 @@ body {
 } */
 .pane {
   padding-top: 100px;
+  width: 50%;
+  float: left;
 }
 .pane h5 {
   margin-left: 5%;
@@ -311,7 +314,7 @@ body {
   }
 
   .sect .mobile {
-    height: 40vh;
+    height: 30vh;
     margin: auto;
   }
   .sect .web {
@@ -326,6 +329,8 @@ body {
   }
   .pane {
     /* height: 50%; */
+    width: 100%;
+    padding-top: 12px;
   }
   .pane h5 {
     color: #9b9b9b;
